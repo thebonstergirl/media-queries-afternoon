@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    background-image: url('./img/header-bg.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    text-align: center;
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(43, 41, 41);
+}
+
+.bootstrap{
+    color: gold;
+    font-family: cursive;
+    margin: 14px;
+    width: 50vw;
+}
+
+.menubtn{
+    display: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gold;
+    margin: 10px;
+    height: 40px;
+    width: 60px;
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+    
+    
+}
+
+h2{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 8vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.yellowbtn{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gold;
+    height: 75px;
+    width: 250px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    
+    
+}
+
+.navbutton{
+    height: 50px;
+    width: 100px;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width: 600px){
+    .navbutton{
+        display: none;
+    }
+    .menubtn{
+        display: flex;
+    }
+}
